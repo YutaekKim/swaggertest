@@ -13,8 +13,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'io.springfox.springfox:spring-boot-starter:3.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
