@@ -5,3 +5,6 @@ http://localhost:8080/swagger-ui/index.html#/
 http://localhost:8080/swagger-ui.html
 
 id/pw javainuse/javainuse
+
+ref site
+https://www.javainuse.com/spring/boot_swagger3
