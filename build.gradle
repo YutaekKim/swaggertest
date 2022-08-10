@@ -14,11 +14,17 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+    //swagger
+    //springfox --Spring boot 2.7에서 오류?
+    //implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    //sprinfdoc
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
 
-    implementation 'io.springfox:springfox-boot-starter:3.0.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
